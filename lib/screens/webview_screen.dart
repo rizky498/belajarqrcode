@@ -11,7 +11,7 @@ class WebScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(url),
         centerTitle: true,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.blue,
       ),
       body: WebView(
         initialUrl: url,

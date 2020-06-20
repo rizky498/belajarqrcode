@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text("Belajar QR Code"),
         centerTitle: true,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
       body: Column(
@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(
             height: 10,
             decoration: BoxDecoration(
-              color: Colors.amber,
+              color: Colors.blue,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(16.0),
                 bottomRight: Radius.circular(16.0),
@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               decoration: BoxDecoration(
-                color: Colors.amber,
+                color: Colors.blue,
                 borderRadius: BorderRadius.all(Radius.circular(5.0)),
               ),
             ),
@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               decoration: BoxDecoration(
-                color: Colors.amber,
+                color: Colors.blue,
                 borderRadius: BorderRadius.all(Radius.circular(5.0)),
               ),
             ),
